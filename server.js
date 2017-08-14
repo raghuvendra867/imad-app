@@ -7,7 +7,7 @@ app.use(morgan('combined'));
 
 app.get('/article1',function(req, res)
 {
-    res.sendFile('we are working on it and soon responded');
+    res.send('we are working on it and soon responded');
 });
 
 app.get('/', function (req, res) {
