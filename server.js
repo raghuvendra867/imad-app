@@ -7,7 +7,17 @@ app.use(morgan('combined'));
 
 app.get('/article1',function(req, res)
 {
-    res.send('we are working on it and soon responded');
+    res.send('article one will be served here');
+});
+
+app.get('/article2',function(req, res)
+{
+    res.send('article two will be served here');
+});
+
+app.get('/article3',function(req, res)
+{
+    res.send('article three will be served here');
 });
 
 app.get('/', function (req, res) {
